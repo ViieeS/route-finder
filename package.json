@@ -1,0 +1,17 @@
+{
+  "name": "route-finder",
+  "version": "1.0.0",
+  "description": "Find route of the trip from the given tickets",
+  "main": "main.ts",
+  "scripts": {
+    "debug": "nodemon --inspect main.ts",
+    "start": "ts-node main.ts"
+  },
+  "author": "ViieeS <vies@list.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
